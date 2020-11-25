@@ -235,7 +235,7 @@ const startGame = async (guild, channel, gamemaster, code) => {
 	axios
 		.put(config.db, games)
 		.then((response) => {
-			// Console.log(response.data);
+			 Console.log(response.data);
 		})
 		.catch((error) => {
 			console.log(error)
@@ -246,7 +246,7 @@ const endGame = (games) => {
 	axios
 		.put(config.db, games)
 		.then((response) => {
-			// Console.log(response.data);
+			 Console.log(response.data);
 		})
 		.catch((error) => {
 			console.log(error)
